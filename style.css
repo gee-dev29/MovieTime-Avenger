@@ -15,7 +15,7 @@
 }
 .bg__right {
     background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
-    height: 100vh;
+    height: 100vh; 
     width: 100%;
     box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.962);
 }
