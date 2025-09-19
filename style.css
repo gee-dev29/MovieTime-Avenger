@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg__left {
+    background: url("./img/Avenger\ img.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.749);
+}
+.bg__right {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+    height: 100vh;
+    width: 100%;
+    box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.962);
+}
+i {
+    color: rgb(254, 254, 71);
+}
+.bg__wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    z-index: 1;
+    position: relative;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+a:hover {
+    color: red;
+}
+.logo__text {
+    color: red;
+}
+.container {
+    color: white;
+    /* z-index: 2; */
+    position: absolute;
+    /* top: 0; */
+}
+.cad_wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin: 40px 80px;
+    justify-content: center;
+    border: 20px;
+    box-sizing: border-box;
+    border-width: 20px;
+}
+.cad:hover {
+    border: 20px;
+    border-color: white;
+    transform: scale(1.20);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    /* color: red; */
+}
+.section__one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    margin-left: auto;
+    height: 50vh;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    font-size: 70px;
+}
+.write_up {
+    margin: 0 30px;
+}
+p {
+    margin: 10px 0;
+    line-height: 20px;
+}
+button {
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 1px;
+    margin: 20px 0;
+}
+img{
+    /* border-radius: 10px; */
+}
